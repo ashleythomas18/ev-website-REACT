@@ -23,5 +23,3 @@ export const Background = ({playStatus, heroCount}) => {
         return <img src={image3} className='background fade-in' alt='background'/>
     }
 }
-
-export default Background
