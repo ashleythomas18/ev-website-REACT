@@ -1,0 +1,64 @@
+.hero{
+    margin: 0px 120px;
+    margin-top: 170px;
+}
+
+.hero-text{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 100px;
+} 
+
+.hero-explore{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 50px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.hero-explore p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #262626;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero-dot-play{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-dots{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    list-style: none;
+}
+.hero-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.hero-dot.orange{
+    background: orangered;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-play p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
