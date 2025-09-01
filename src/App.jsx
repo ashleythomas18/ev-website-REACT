@@ -1,8 +1,8 @@
 import React, { use, useEffect } from "react";
 import { useState } from "react";
 import Background from "./components/background/background";
-import Navbar from "./components/navbar/navbar";
-import Hero from "./components/hero/hero"; 
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero"; 
 
 export const App = () => {
   let heroData=[
